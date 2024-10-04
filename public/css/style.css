@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /* Cambiar la fuente a Poppins */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5e4b8b;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600; /* Letra semibold */
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #4b3e72;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+h1 {
+    font-weight: 700; /* Negrita para el título */
+    text-align: center; /* Centrar el título */
+}
+
+h2 {
+    font-weight: 600; /* Títulos secundarios */
+}
+
+h3 {
+    font-weight: 500; /* Títulos terciarios */
+}
+
+table {
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho */
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+    margin: 20px 0; /* Añade margen vertical alrededor de la tabla */
+}
+
+th, td {
+    border: 1px solid #5e4b8b; /* Cambia el color del borde a tu paleta */
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+th {
+    background-color: #5e4b8b; /* Fondo de la cabecera de la tabla */
+    color: white; /* Color de texto en la cabecera */
+    font-weight: 600; /* Fuente semibold para la cabecera */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo alternativo para filas pares */
+}
+
+ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar margen de la lista */
+    margin: 0; /* Quitar margen de la lista */
+}
+
+strong {
+    color: #5e4b8b; /* Color del texto fuerte */
+}
+
+.form-wrapper {
+    background-color: #ffffff;
+    border: 2px solid #5e4b8b; /* Bordes más notorios en los formularios */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Ajustar ancho para que el formulario no sea muy grande */
+}
+
+input, textarea {
+    display: block;
+    width: 70%; /* Reducir ancho de los inputs */
+    margin: 10px auto; /* Centrarlos */
+    border: 2px solid #5e4b8b; /* Borde más notorio */
+    border-radius: 5px;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Fondo ligeramente gris para diferenciar del fondo blanco */
+}
+
+button {
+    margin: 10px 5px; /* Espaciado entre botones */
+    background-color: #5e4b8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4b3e72;
+}
+
+textarea {
+    height: 80px; /* Ajustar la altura del textarea */
+    resize: none; /* Evitar que se redimensione */
+}
+
+.alert {
+    background-color: #f8d7da; /* Color de fondo de advertencia */
+    color: #721c24; /* Color del texto de advertencia */
+    border: 1px solid #f5c6cb; /* Borde de advertencia */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px 0; /* Margen vertical */
+}
+
+.aligned-list {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar margen de la lista */
+    margin: 0; /* Quitar margen de la lista */
+}
+
+.aligned-list li {
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.aligned-list li strong {
+    display: inline-block; /* Hacer que el texto fuerte se comporte como un bloque */
+    width: 120px; /* Ajustar el ancho según sea necesario */
+}
